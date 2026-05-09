@@ -71,55 +71,18 @@ Download Node.js from [nodejs.org](https://nodejs.org) if needed (npm comes incl
 
 ---
 
-### Step 1 — Upload to GitHub
+### Step 1 — Clone and Run Locally
 
-If you received this project as a zip file, follow these steps to publish it on GitHub.
-
-**1a. Extract the zip**
-
-Unzip `spreadsheet-engine.zip`. You will get a folder named `spreadsheet-engine/`.
-
-**1b. Create a new GitHub repository**
-
-1. Go to [github.com/new](https://github.com/new)
-2. Set the repository name to `spreadsheet-engine`
-3. Choose **Public**
-4. Leave "Initialize with README" **unchecked**
-5. Click **Create repository**
-
-**1c. Open a terminal inside the project folder**
-
-```bash
-cd path/to/spreadsheet-engine
-```
-
-**1d. Initialise Git and push**
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: Spreadsheet Engine with Formula Evaluation"
-git branch -M main
-git remote add origin https://github.com/<your-username>/spreadsheet-engine.git
-git push -u origin main
-```
-
-Replace `<your-username>` with your actual GitHub username. After this your code is live on GitHub.
-
----
-
-### Step 2 — Clone and Run Locally
-
-Anyone (including you on another machine) can run the project with these four commands:
+Anyone can run the project with these four commands:
 
 **2a. Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/spreadsheet-engine.git
+git clone https://github.com/<Vikash916692>/Spreadsheet-Engine-Task.git
 ```
 
 **2b. Enter the project folder**
 ```bash
-cd spreadsheet-engine
+cd Spreadsheet-Engine-Task
 ```
 
 **2c. Install dependencies**
@@ -228,6 +191,3 @@ A custom React hook manages:
 
 ---
 
-## License
-
-MIT
